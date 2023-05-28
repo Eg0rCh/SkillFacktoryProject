@@ -54,6 +54,9 @@ public class University {
         return this;
     }
 
+    public University() {
+    }
+
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;
         this.fullName = fullName;
